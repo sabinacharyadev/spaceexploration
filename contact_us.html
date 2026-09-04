@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/header_image.png" alt="" />
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">
+              <img class="nav_icon" src="./assets/icon_home.png" alt="" /> Home
+            </a>
+          </li>
+          <li>
+            <a href="./planets_facts.html">
+              <img class="nav_icon" src="./assets/icon_planet.png" alt="" />
+              Planets Facts
+            </a>
+          </li>
+          <li>
+            <a href="./gallery.html">
+              <img class="nav_icon" src="./assets/icon_gallery.png" alt="" />
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a href="./space_facts.html">
+              <img class="nav_icon" src="./assets/icon_star.png" alt="" /> Top 5
+              Space Facts
+            </a>
+          </li>
+          <li>
+            <a href="./contact_us.html">
+              <img class="nav_icon" src="./assets/icon_contact.png" alt="" />
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <h3>Join the Club</h3>
+        <form>
+          <label for="name">Name :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          /><br />
+
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          /><br />
+
+          <label for="favoritePlanet">Favorite Planet :</label>
+          <select name="favoritePlanet" id="favoritePlanet">
+            <option value="">Select a Planet</option>
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="earth">Earth</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+          </select>
+          <br />
+
+          <label for="message">Message :</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Tell us why you love space!"
+            required
+          ></textarea>
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <p>Made for Astronauts 🚀</p>
+    </footer>
+  </body>
+</html>
